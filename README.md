@@ -18,18 +18,19 @@ Final graded project for the course **AI Systems 2**. I implemented a Vision Tra
 > Note: “ensemble of 5” = average of model outputs at test time.
 
 ## Setup
-%bash
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
+```
 
-%powershell
+```powershell
 python -m venv .venv
 . .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 ## References
 
 1. Dosovitskiy, A. et al. (2021). *An Image is Worth 16×16 Words: Transformers for Image Recognition at Scale.* ICLR. arXiv:2010.11929.
