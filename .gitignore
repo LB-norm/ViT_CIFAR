@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Environments
+.venv/
+venv/
+
+# Datasets
+data
+
+# Models
+models
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Notebooks and tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
